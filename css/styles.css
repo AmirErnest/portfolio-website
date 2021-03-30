@@ -60,10 +60,6 @@ a {
   text-decoration: none;
 }
 
-a:hover{
-  font-size:120%;
-}
-
 a:hover,  a:focus {
   /* No underlining when hovering over a link */
   cursor: pointer;
