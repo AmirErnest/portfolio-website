@@ -75,7 +75,7 @@ a:active {
   color: var(--Navy);
 }
 
-button, .button {
+button {
   /* overwrites browser defaults and resets the border */
   border: none;
   display: inline-block;
@@ -94,8 +94,7 @@ button, .button {
   transition-duration: 0.2s opacity;
 }
 
-button:hover, button:focus,
-.button:hover, .button:focus {
+button:hover, button:focus {
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
   /* reduces the opacity of the button to 80% */
