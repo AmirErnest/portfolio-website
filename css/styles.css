@@ -406,9 +406,10 @@ To make sure the grid is displayed similarly on older browsers*/
 }
 
 form {
+  clear: both;
   max-width:400px;
   max-height:400px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .inputField {
