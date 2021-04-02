@@ -216,6 +216,10 @@ button:hover, button:focus {
 /* -------------------------------------------------------------------------- */
 
 /* work.html */
+.work_body{
+  max-width: 1000px;
+  margin: 0 auto;
+}
 .work_class{
   display: flex;
   flex-direction: column;
@@ -258,6 +262,8 @@ To make sure the grid is displayed similarly on older browsers*/
 /* -------------------------------------------------------------------------- */
 /* about.html*/
 .about_me{
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   flex-direction: column;
