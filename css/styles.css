@@ -104,7 +104,7 @@ button:hover, button:focus {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin: 12px;
+    margin-bottom: 12px;
 }
 
 /* header border*/
@@ -530,5 +530,18 @@ input[type=submit]:hover {
   }
   h1 {
     font-size: 22px;
+  }
+  .nameLogo{
+    font-size: 0.8em;
+  }
+  .page-header{
+    flex-direction: column;
+    align-items: center;
+    margin:0;
+    padding:0;
+  }
+
+  .page-header__item {
+    flex:none;
   }
 }
