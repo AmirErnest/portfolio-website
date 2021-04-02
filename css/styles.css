@@ -278,7 +278,7 @@ To make sure the grid is displayed similarly on older browsers*/
     display: grid;
     /* grid-template-columns: 300px 300px 300px; fractions are better
     than pixels - they are responsive */
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 20px;
     margin: 0;
     padding: 15px;
@@ -326,6 +326,7 @@ To make sure the grid is displayed similarly on older browsers*/
 .berlin-illustration{
   display: inline-block;
   width: 100%;
+  max-height: auto;
 }
 
 @keyframes color-change {
