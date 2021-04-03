@@ -151,7 +151,7 @@ button:focus {
 
 /* the 2 main children of header, logo and nav */
 .page-header__item {
-  flex: 0 1 300px;
+  flex: 0 1 500px;
 }
 
 .page-header__item:last-child {
@@ -161,9 +161,10 @@ button:focus {
 
 /* Logo content */
 .nameLogo {
-  float: left;
+  /* float: left; */
   font-size: 1.5em;
   text-decoration: none;
+  display: inline-block;
 }
 
 .nameTag {
