@@ -120,6 +120,7 @@ button:focus {
 /* header border */
 .bot-left {
   position: relative;
+  margin: 15px;
 }
 
 .bot-left::before,

@@ -118,9 +118,17 @@ button:focus {
   padding: auto;
 }
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* header border */
 .bot-left {
   position: relative;
+  margin: 15px;
 }
 
 .bot-left::before,
@@ -693,7 +701,7 @@ input[type=submit]:hover {
 
   .page-header__item {
     -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
+    -ms-flex: none;
+    flex: none;
   }
 }
