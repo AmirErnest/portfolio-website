@@ -244,6 +244,10 @@ button:focus {
   justify-content: center;
 }
 
+.project-list {
+  padding: 15px;
+}
+
 /* start grid fallback To make sure the grid is displayed similarly on older browsers */
 .grid__item {
   display: inline-block;
