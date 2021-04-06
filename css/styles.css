@@ -296,6 +296,11 @@ button:focus {
 
 .short_brief {
   margin-bottom: 30px;
+  padding: 15px;
+}
+
+.skills-heading {
+  padding: 15px;
 }
 
 @supports (display: grid) {
@@ -444,6 +449,10 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.contact-form-text {
+  padding: 15px;
 }
 
 form {
