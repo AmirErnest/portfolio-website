@@ -499,6 +499,7 @@ input[type=submit]:hover {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 15px;
 }
 
 /* icons */
