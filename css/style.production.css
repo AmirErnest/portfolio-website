@@ -115,15 +115,9 @@ button:focus {
   -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
-  padding: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
 
 /* header border */
 .bot-left {
@@ -154,8 +148,8 @@ button:focus {
 /* the 2 main children of header, logo and nav */
 .page-header__item {
   -webkit-box-flex: 0;
-  -ms-flex: 0 1 300px;
-  flex: 0 1 300px;
+  -ms-flex: 0 1 500px;
+  flex: 0 1 500px;
 }
 
 .page-header__item:last-child {
@@ -167,9 +161,10 @@ button:focus {
 
 /* Logo content */
 .nameLogo {
-  float: left;
+  /* float: left; */
   font-size: 1.5em;
   text-decoration: none;
+  display: inline-block;
 }
 
 .nameTag {
@@ -247,11 +242,17 @@ button:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  text-align: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.project-list {
+  padding: 15px;
 }
 
 /* start grid fallback To make sure the grid is displayed similarly on older browsers */
@@ -366,6 +367,7 @@ button:focus {
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   background-color: #33adff;
   position: relative;
   overflow: hidden;
@@ -527,9 +529,10 @@ button:focus {
 
 form {
   clear: both;
-  max-width: 400px;
+  max-width: 450px;
   max-height: 400px;
   margin-bottom: 100px;
+  padding: 15px;
 }
 
 .inputField {
@@ -583,6 +586,7 @@ input[type=submit]:hover {
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 15px;
 }
 
 /* icons */
@@ -638,7 +642,7 @@ input[type=submit]:hover {
   }
 
   form {
-    width: 320px;
+    width: 280px;
     height: 360px;
   }
 
