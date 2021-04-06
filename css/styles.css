@@ -240,8 +240,8 @@ button:focus {
 
 .work_class {
   display: flex;
-  flex-direction: column;
-  text-align: center;
+  flex-direction: row;
+  justify-content: center;
 }
 
 /* start grid fallback To make sure the grid is displayed similarly on older browsers */
