@@ -114,7 +114,8 @@ button:focus {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* header border */
