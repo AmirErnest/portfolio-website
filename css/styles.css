@@ -388,6 +388,43 @@ button:focus {
   padding: 15px;
 }
 
+.icons-list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.icon-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  padding: 5px;
+  margin: 10px;
+}
+
+.skills-icon {
+  font-size: 2em;
+  color: #adb5bd;
+}
+
+.icon-title {
+  color: #adb5bd;
+}
+
+.icon-title:hover {
+  color: black;
+  cursor: default;
+}
+
+i:hover {
+  color: #002fa7;
+}
+
 .skills-heading {
   padding: 15px;
 }

@@ -427,6 +427,59 @@ button:focus {
   padding: 15px;
 }
 
+.icons-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.icon-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  padding: 5px;
+  margin: 10px;
+}
+
+.skills-icon {
+  font-size: 2em;
+  color: #adb5bd;
+}
+
+.icon-title {
+  color: #adb5bd;
+}
+
+.icon-title:hover {
+  color: black;
+  cursor: default;
+}
+
+i:hover {
+  color: #002fa7;
+}
+
 .skills-heading {
   padding: 15px;
 }
