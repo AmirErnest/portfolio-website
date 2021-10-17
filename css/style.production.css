@@ -374,11 +374,13 @@ nav {
   width: 150px;
 }
 
+/*
 .card-container img:hover {
   -webkit-transform: translateY(5%) scale(1.2);
   -ms-transform: translateY(5%) scale(1.2);
   transform: translateY(5%) scale(1.2);
 }
+*/
 
 .card-container h3 {
   margin: 15px 0;

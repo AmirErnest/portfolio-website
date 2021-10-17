@@ -358,9 +358,11 @@ nav {
   width: 150px;
 }
 
+/*
 .card-container img:hover {
   transform: translateY(5%) scale(1.2);
 }
+*/
 
 .card-container h3 {
   margin: 15px 0;
