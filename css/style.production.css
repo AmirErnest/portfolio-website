@@ -1,3 +1,5 @@
+/* https://madlittlemods.github.io/postcss-css-variables/playground/ */
+/* https://autoprefixer.github.io/ */
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v7.0.29,
@@ -21,7 +23,7 @@
 /* general page styling */
 
 body {
-  font-family: 'Akaya Telivigala', sans-serif, cursive;
+  font-family: "Akaya Telivigala", sans-serif, cursive;
   font-weight: 300;
 
   /* Sets the font size to 16px */
@@ -345,7 +347,9 @@ nav {
 
 /* Profile Card */
 .card-container {
-  background-color: #231e39;
+  display: -ms-grid;
+  display: grid;
+  background-color: #14121d;
   border-radius: 5px;
   max-width: 100%;
   position: relative;
@@ -377,7 +381,7 @@ nav {
 }
 
 .card-container h3 {
-  margin: 25px 0;
+  margin: 15px 0;
 }
 
 .card-container h6 {
@@ -386,8 +390,10 @@ nav {
 }
 
 .card-container p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 21px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .card-container .MessageButton {
@@ -404,11 +410,17 @@ nav {
   cursor: pointer;
   margin-bottom: 15px;
   border-radius: 1.5rem / 50%;
-  -webkit-transition: background-color 100ms ease-in-out, -webkit-transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
-  transition: background-color 100ms ease-in-out, -webkit-transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
-  -o-transition: background-color 100ms ease-in-out, transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
-  transition: background-color 100ms ease-in-out, transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
-  transition: background-color 100ms ease-in-out, transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28), -webkit-transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  -webkit-transition: background-color 100ms ease-in-out,
+    -webkit-transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  transition: background-color 100ms ease-in-out,
+    -webkit-transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  -o-transition: background-color 100ms ease-in-out,
+    transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  transition: background-color 100ms ease-in-out,
+    transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  transition: background-color 100ms ease-in-out,
+    transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28),
+    -webkit-transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 
 .card-container .MessageButton:hover {
@@ -439,13 +451,18 @@ nav {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  background-color: #2a313d;
   padding: 15px;
   margin-top: 10px;
-  border: 1px solid #03bfcb;
   border-radius: 10px;
 }
 
+/* cards background color*/
+.to-do-list {
+  background-color: #e8a200;
+}
+
+/* show class to hide the languages used section and show it only when hovering over the card */
+/*
 .show {
   display: none;
 }
@@ -454,6 +471,7 @@ nav {
   display: block;
 }
 
+*/
 /* -------------------------------------------------------------------------- */
 
 /* -------------------------------------------------------------------------- */
@@ -493,6 +511,7 @@ nav {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0;
+  padding: 0;
 }
 
 .icon-list-item {
@@ -774,8 +793,8 @@ form {
   box-shadow: 5px 5px 12px 2px rgba(0, 0, 0, 0.4);
 }
 
-input[type=text]:focus,
-input[type=email]:focus {
+input[type="text"]:focus,
+input[type="email"]:focus {
   background-color: #fefbd8;
 }
 
@@ -784,14 +803,14 @@ textarea {
   height: 300px;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: #6495ed;
   font-style: bold;
   cursor: pointer;
   font-weight: bold;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   opacity: 0.9;
   background: #034f84;
 }
