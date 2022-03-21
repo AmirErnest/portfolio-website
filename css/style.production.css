@@ -484,6 +484,10 @@ nav {
 .myflix-client {
   background-color: #000080;
 }
+
+.myflix-client-angular {
+  background-color: #808080;
+}
 /* show class to hide the languages used section and show it only when hovering over the card */
 /*
 .show {
