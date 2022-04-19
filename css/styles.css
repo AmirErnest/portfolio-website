@@ -57,7 +57,7 @@ p {
 }
 
 a {
-  color: var(--MediumSeaGreen);
+  color: #fff;
   text-decoration: none;
 }
 
@@ -70,7 +70,7 @@ a:focus {
 
 a:active {
   /* selected link */
-  color: var(--Navy);
+  /* color: var(--Navy); */
 }
 
 button {

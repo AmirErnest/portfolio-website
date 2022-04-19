@@ -54,7 +54,7 @@ p {
 }
 
 a {
-  color: #3cb371;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -67,7 +67,7 @@ a:focus {
 
 a:active {
   /* selected link */
-  color: #000080;
+  /* color: #000080; */
 }
 
 button {
